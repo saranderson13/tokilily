@@ -1,0 +1,456 @@
+html {
+                width: 100%; height: 100%;
+                position: absolute; top: 0; left: 0;
+                font-family: 'raleway'; color: #5f5f5f;
+                cursor: url(http://i67.tinypic.com/2rm2znq.jpg), auto;
+            }
+            
+            html a:link, a:active, a:visited {
+                cursor: url(http://i66.tinypic.com/rqzqmc.jpg), auto;
+                text-decoration: none;
+                color: #a3a3a3;
+                transition: .2s all ease-in-out;
+                -moz-transition: .2s all ease-in-out;
+                -webkit-transition: .2s all ease-in-out;
+            }
+            
+            html a:hover { color: #5f5f5f; }
+            
+            body { background-color: #fcfbfa; }
+            
+            header {
+                width: 100%; height: 90px;
+                position: fixed; top: 0; left: 0;
+                box-shadow: 2px 0px 4px #c4c4c4;
+                z-index: 4;
+                transition: .4s all ease-in-out;
+                -webkit-transition: .4s all ease-in-out;
+                -moz-transition: .4s all ease-in-out;
+            }
+            
+            .headblock {
+                width: 100%; height: 40px; padding: 10px 0px;
+                position: fixed; top: 0px; left: 0px;
+                background-color: #fff; 
+                transition: .4s all ease-in-out;
+                -webkit-transition: .4s all ease-in-out;
+                -moz-transition: .4s all ease-in-out;
+            }
+            
+            .logo { height: 40px; float: left; margin-left: 20px; }
+            
+            nav {
+                width: 100%; height: 30px;
+                position: relative; top: 60px; left: 0px;
+                padding-right: 20px;
+                background-color: #fff;
+                border-top: 1px solid #c4c4c4;
+            }
+            
+            nav a:link, a:visited, a:active { color: #a3a3a3; }
+            nav a:hover { color: #5f5f5f; }
+            
+            .navbox {
+                width: 100px; height: 17px;
+                float: right; text-align: center;
+                border-bottom: 1px solid #f8f3f1;
+                font-family: 'raleway'; padding-top: 6px;
+                font-size: 10px; text-transform: uppercase;
+                transition: .2s all ease-in-out;
+                -moz-transition: .2s all ease-in-out;
+                -webkit-transition: .2s all ease-in-out;
+            }
+            
+            .navbox:hover { border-bottom: 1px solid #ead9d3; }
+            
+            buffert {
+                width: 100%; height: 20px; 
+                background-color: #fcfbfa;
+                position: fixed; top: 90px; left: 0px;
+                z-index: 2;
+            }
+            
+            footer {
+                width: 100%; height: 20px; 
+                background-color: #fcfbfa;
+                position: fixed; bottom: 0px; left: 0px;
+                text-align: right;
+                z-index: 2;
+            }
+            
+            .copyright {
+                float: left; padding: 5px 0px 0px 10px;
+                font-size: 8px; text-transform: uppercase;
+            }
+            
+            aside {
+                width: 300px; height: 100%;
+                position: fixed; top: 0; right: 0;
+                text-align: center;
+                z-index: 3;
+            }
+            
+            .imagelogo {
+                width: 144px; height: 144px; border-radius: 150px;
+                overflow: hidden;
+                padding: 15px;
+                position: absolute; top: 135px; right:60px;
+                background-color: #fff;
+                box-shadow: 0px 2px 2px #c4c4c4;
+                border: 3px double #fff;
+                transition: .5s all ease-in-out;
+                -moz-transition: .5s all ease-in-out;
+                -webkit-transition: .5s all ease-in-out;
+            }
+            
+            .imagelogo:hover { box-shadow: none; border: 3px double #c4c4c4; }
+            
+            .asidelinkset {
+                width: 150px; 
+                position: absolute; top: 395px; right: 90px;
+                font-family: 'raleway'; font-size: 9px; 
+                text-transform: uppercase;
+            }
+            
+            .asidelinkset a:link, a:visited, a:active { color: #a3a3a3; }
+            .asidelinkset a:hover { color: #5f5f5f; }
+            
+            .asidelink {
+                width: 100px; height: 16px;
+                text-align: left; padding: 4px 0px 0px 5px;
+                background-color: #fff;
+                border-top-left-radius: 2px;
+                border-bottom-left-radius: 2px;
+                border-right: 10px solid #ead9d3;
+                box-shadow: -1px 1px 2px #c4c4c4;
+                margin-bottom: 7px;
+                float: right; display: block;
+                transition: .3s all ease-in-out;
+                -moz-transition: .3s all ease-in-out;
+                -webkit-transition: .3s all ease-in-out;
+            }
+            
+            .asidelink:hover { width: 120px; }
+            
+            socialmedia {
+                width: 116px; height: 34px;
+                position: absolute; top: 355px; right: 89px;
+                text-align: center;
+            }
+            
+            socialmedia img {
+                min-width: 30px; min-height: 30px;
+                max-width: 30px; max-height: 30px;
+                opacity: .7;
+                transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                -webkit-transform: translate3d(0, 0, 0);
+                transition: .1s all ease-in-out;
+                -moz-transition: .1s all ease-in-out;
+                -webkit-transition: .1s all ease-in-out;
+            }
+            
+            socialmedia img:hover {
+                min-width: 34px; min-height: 34px;
+                max-width: 34px; max-height: 34px;
+                opacity: .9;
+            }
+            
+            .smbuttonl img { margin-top: 2px; margin-left: 2px; float: left; }
+            .smbuttonl img:hover { margin-top: 0px; margin-left: 0px; }
+            .smbuttonc img { position: fixed; top: 357px; right: 132px; }
+            .smbuttonc img:hover { position: fixed; top: 355px; right: 130px; }
+            .smbuttonr img { margin-top: 2px; margin-right: 2px; float: right; }
+            .smbuttonr img:hover { margin-top: 0px; margin-right: 0px; }
+        </style>
+        
+        
+        
+        <!-- POST CSS -->
+        <style>
+            #postspace { width: 840px; height: 100%; margin: 110px 0px 30px 90px; }
+            
+            .ipost {
+                {block:IndexPage} width: 400px; overflow: hidden; {/block:IndexPage}
+                {block:PermalinkPage} width: 500px; {/block:PermalinkPage}
+                float: left;
+                margin: 0px 5px 10px 5px;
+                padding: 5px 5px 0px 5px;
+                background-color: #fff;
+                border-radius: 3px; box-shadow: 0px 2px 3px #c4c4c4;
+            }
+            
+            jumbo { font-size: 30px; }
+            tdef { font-size: 17px; }
+            rdef { font-size: 10px; line-height: 12px; }
+            ddef { font-size: 10px; text-transform: uppercase; }
+            
+            .textpost { margin: 10px 10px 20px 10px; }
+            
+            .textblock {
+                text-align: justify;
+                border-top: 1px dotted #c4c4c4;
+                margin-top: 10px;
+            }
+            
+            .dim {
+                {block:IndexPage}
+                    opacity: .7;
+                    transition: .3s all ease-in-out;
+                    -moz-transition: .3s all ease-in-out;
+                    -webkit-transition: .3s all ease-in-out;
+                {/block:IndexPage}
+                {block:PermalinkPage} opacity: 1; {/block:PermalinkPage}
+            }
+            
+            .dim:hover { opacity: 1; }
+            
+            .magicfit img {
+                {block:IndexPage}
+                    min-width: 400px; !important;
+                    max-width: 400px; !important;
+                {/block:IndexPage}
+                {block:PermalinkPage}
+                    min-width: 500px; !important;
+                    max-width: 500px; !important;
+                {/block:PermalinkPage}
+            }
+            
+            .quote { text-align: center; margin: 15px; }
+            
+            .quotesource {
+                text-align: right;
+                margin: 0px 10px 20px 0px;
+                font-size: 10px; text-transform: uppercase;
+            }
+            
+            .long { font-size: 10px; }
+            .medium { font-size: 13px; }
+            .short { font-size: 17px;}
+            
+            .linkbox {
+                {block:IndexPage} height: 160px; {/block:IndexPage}
+                {block:PermalinkPage} width: 500px; {/block:PermalinkPage}
+            }
+            
+            .linkthumb {
+                {block:IndexPage}
+                    float: left; margin-top: 5px;
+                    width: 150px; height: 155px;
+                    opacity: .6;
+                    transition: .3s all ease-in-out;
+                    -moz-transition: .3s all ease-in-out;
+                    -webkit-transition: .3s all ease-in-out;
+                {/block:IndexPage}
+                {block:PermalinkPage}
+                    width: 500px; height: 500px;
+                    opacity: 1;
+                {/block:PermalinkPage}
+            }
+            
+            .linkthumb:hover { opacity: 1; }
+            
+            .linkfull {
+                {block:IndexPage}
+                    float: right; width: 230px;
+                    margin: 15px 0px 0px 20px;
+                {block:IndexPage}
+                {block:PermalinkPage}
+                    width: 460px; padding: 20px; 
+                    position: relative; top: 10px;
+                {/block:PermalinkPage}
+            }
+            
+            .linkexcerpt {
+                {block:IndexPage}
+                    margin: 5px 5px 0px 0px; padding: 10px 5px 0px 0px;
+                {/block:IndexPage}
+                {block:PermalinkPage}
+                    margin-top: 10px; padding: 10px 20px 0px;
+                {/block:PermalinkPage}
+                text-align: justify;
+                font-size: 10px; line-height: 13px;
+                border-top: 1px dotted #c4c4c4;
+                
+            }
+            
+            .linkauthor {
+                font-size: 11px; text-transform: uppercase;
+                text-align: right;
+                margin: 15px 10px 0px 0px;
+            }
+            
+            .chatfix {
+                {block:IndexPage} padding: 5px 0px 12px 10px; {/block:IndexPage}
+                {block:Permalinkpage}padding: 15px 0px 22px 10px;{/block:PermalinkPage}
+                margin-top: 5px;
+                border-top: 1px dotted #c4c4c4;
+            }
+            
+            .even {
+                font-size: 10px;
+                text-transform: uppercase; color: #5f5f5f;
+                font-weight: bold;
+            }
+            
+            .odd {
+                font-size: 10px;
+                text-transform: uppercase; color: #a3a3a3;
+                font-weight: bold;
+            }
+        </style>
+        
+        
+        <!-- FOOTER CSS -->
+        <style>
+            .textfooter {
+                {block:IndexPage}
+                    height: 20px; margin-bottom: 5px; padding-top: 4px;
+                    background-color: #fff;
+                    border-top: 1px dotted #c4c4c4;
+                {/block:IndexPage}
+            }
+            
+            .textdate { display: none; }
+            
+            .photofooter {
+                {block:IndexPage}
+                    width: 380px;height: 20px; 
+                    margin-bottom: 5px; padding:2px 10px;
+                    background-color: #fff;
+                    text-align: center;
+                    position: absolute; top: -24px;
+                    opacity: 0;
+                    transition: .3s all ease-in-out;
+                    -moz-transition: .3s all ease-in-out;
+                    -webkit-transition: .3s all ease-in-out;
+                {/block:IndexPage}
+            }
+            
+            .ipost:hover .photofooter {
+                {block:IndexPage}
+                    position: absolute; top: 2px;
+                    opacity: .9;
+                {/block:IndexPage}
+            }
+            
+            .photodate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .photosetfooter {
+                {block:IndexPage}
+                    width: 380px;height: 20px; 
+                    margin-bottom: 5px; padding:2px 10px;
+                    background-color: #fff;
+                    text-align: center;
+                    position: absolute; top: -24px;
+                    opacity: 0;
+                    transition: .3s all ease-in-out;
+                    -moz-transition: .3s all ease-in-out;
+                    -webkit-transition: .3s all ease-in-out;
+                {/block:IndexPage}
+            }
+            
+            .ipost:hover .photosetfooter {
+                {block:IndexPage}
+                    position: absolute; top: 2px;
+                    opacity: .9;
+                {/block:IndexPage}
+            }
+            
+            .photosetdate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .quotefooter {
+                {block:IndexPage}
+                    height: 20px; margin-bottom: 5px; padding-top: 4px;
+                    background-color: #fff;
+                    border-top: 1px dotted #c4c4c4;
+                    text-align: center;
+                {/block:IndexPage}
+            }
+            
+            .quotedate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .linkfooter {
+                {block:IndexPage}
+                    height: 20px; margin: 10px 0px 5px; padding-top: 4px;
+                    background-color: #fff;
+                    border-top: 1px dotted #c4c4c4;
+                    text-align: center;
+                {/block:IndexPage}
+            }
+            
+            .linkdate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .chatfooter {
+                {block:IndexPage}
+                    height: 20px; margin: 10px 0px 5px; padding-top: 4px;
+                    background-color: #fff;
+                    border-top: 1px dotted #c4c4c4;
+                    text-align: center;
+                {/block:IndexPage}
+            }
+            
+            .chatdate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .videofooter {
+                {block:IndexPage}
+                    height: 20px; margin-bottom: 5px;
+                    background-color: #fff;
+                    text-align: center;
+                {/block:IndexPage}
+            }
+            
+            .videodate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .audiofooter {
+                {block:IndexPage}
+                    height: 20px; margin-bottom: 5px;
+                    background-color: #fff;
+                    text-align: center;
+                {/block:IndexPage}
+            }
+            
+            .audiodate {
+                {block:IndexPage}
+                    font-size: 9px; text-transform: uppercase;
+                    position: relative; top: -2px;
+                {block:IndexPage}
+            }
+            
+            .footerbutton { float: left; margin-right: 5px; }
+            .footernotes {
+                float: right; padding-top: 4px;
+                font-size: 9px; text-transform: uppercase;
+            }
+            
+            
